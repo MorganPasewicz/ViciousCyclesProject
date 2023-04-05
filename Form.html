@@ -1,0 +1,112 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body {
+        background-color: #E7FBFB;
+    }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-decoration-color: #f1f1f1;
+        overflow: hidden;
+        background-color: #333; 
+      }
+
+
+a {
+    font-size: 1em;
+        text-align: center;
+        text-decoration-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px 16px;
+  text-decoration: none;
+}
+li {
+  border-right: 1px solid #f9af1b;
+}
+
+li:last-child {
+  border-right: none;
+}
+li a:hover {
+  background-color: #f9af1b;
+}
+</style> 
+<ul>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li style="float:right"><a class="active" href="Form.html">Contact Us</a></li>
+  </ul>
+  
+ 
+    <br><br><br>
+</head>
+<img id="pic1"
+src="images/logo.png" 
+alt="Vicious Cycles">
+<br><br>
+
+<h1>Contact Us</h1>
+
+<br><br>
+
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" maxlength="300"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" maxlength="300">
+  </form>
+  <h2>What type of bike do you have or are currently looking for?</h2>
+  <input type="radio" id="Cross country bike" name="bike" value="Cross country bike">
+<label for="Cross country bike">Cross country bike</label><br>
+<input type="radio" id="All mountain & enduro bike" name="bike" value="All mountain & enduro bike">
+<label for="All mountain & enduro bike">All mountain & enduro bike</label><br>
+<input type="radio" id="Downhill mountain bike" name="bike" value="Downhill mountain bike">
+<label for="Downhill mountain bike">Downhill mountain bike</label><br>
+<input type="radio" id="Freeride mountain bike" name="bike" value="Freeride mountain bike">
+<label for="Freeride mountain bike">Freeride mountain bike</label><br>
+<input type="radio" id="Fat bike" name="bike" value="Fat bike">
+<label for="Fat bike">Fat bike</label><br>
+<input type="radio" id="I don't know" name="bike" value="I don't know">
+<label for="I don't know">I don't know</label><br><br>
+<h3>what is your question regarding?</h3>
+  <form>
+    <input type="checkbox" id="question1" name="question1" value="warranty">
+    <label for="question1"> I have a question about my bike's warranty</label><br>
+    <input type="checkbox" id="question2" name="question2" value="repair">
+    <label for="question2"> I need a repair on my bike</label><br>
+    <input type="checkbox" id="question3" name="question3" value="new">
+    <label for="question3"> I have questions about finding a new bike</label><br>
+    <input type="checkbox" id="question4" name="question4" value="purchase">
+    <label for="question4"> I have a complaint about a recent purchase</label><br>
+    <input type="checkbox" id="question5" name="question5" value="other">
+    <label for="question5"> other</label><br>
+  </form>
+  <form>
+    <label for="questions and concerns">questions and concerns:</label><br>
+    <input type="text" id="questions and concerns" name="questions and concerns" size="100" maxlength="5000" ><br><br>
+    <label for="mail">your email:</label><br>
+    <input type="text" id="mail" name="mail" maxlength="300">
+  </form>
+</form>
+    <form action="formsubmit.html">
+    <input type="submit" value="Submit">
+  </form>
+  <br><br><br>
+  	
+  
+  
